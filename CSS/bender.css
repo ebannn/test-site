@@ -1,0 +1,45 @@
+body{
+	margin: 0;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+header{
+	background-color: cornflowerblue;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 45px;
+
+}
+
+h1,h2,h3{
+	font-family: 'Exo', sans-serif;
+	text-align: center;
+}
+
+/*the h1 color element that works is in the html file*/
+header h1{
+	color: ivory;
+	font-size: 35px;
+}
+
+h2{
+	font-size: 30px;
+}
+
+h3{
+	font-size: 25px;
+}
+
+header img{
+	border-radius: 160px;
+    width: 300px;
+    border: 10px solid #c0bfc7;
+}
+
+main{
+	text-align: center;
+}
+
+main img{
+	max-width: 800
+}
