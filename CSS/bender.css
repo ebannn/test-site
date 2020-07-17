@@ -1,6 +1,8 @@
 body{
 	margin: 0;
 	font-family: Helvetica, Arial, sans-serif;
+	font-size: 17px;
+	line-height: 25px;
 }
 
 header{
@@ -22,6 +24,10 @@ header h1{
 	font-size: 35px;
 }
 
+h2,h3{
+	color: cornflowerblue;
+}
+
 h2{
 	font-size: 30px;
 }
@@ -37,9 +43,15 @@ header img{
 }
 
 main{
-	text-align: center;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 30px;
 }
 
 main img{
-	max-width: 800
+	max-width: 100%
+}
+
+p{
+	text-align: center;
 }
