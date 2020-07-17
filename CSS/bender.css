@@ -45,7 +45,7 @@ header img{
 main{
 	max-width: 1000px;
 	margin: 0 auto;
-	padding: 0 30px;
+	padding: 30px;
 }
 
 main img{
@@ -55,3 +55,46 @@ main img{
 p{
 	text-align: center;
 }
+
+a{
+	color:black;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: cornflowerblue;
+	font-style: italic; 
+}
+
+footer{
+	background-color: cornflowerblue;
+	color: ivory;
+	text-align: center;
+	padding: 10px;
+}
+
+footer p{
+	margin: 0;
+}
+
+footer a{
+	color: ivory;
+
+}
+
+footer a:hover{
+	background-color: transparent;
+	color: ivory;
+	opacity: .5;
+	font-style: normal;
+	text-decoration: none;
+
+}
+
+span:hover{
+	background-color: transparent;
+	color: ivory;
+	text-decoration: none;
+}
+
+/*ploop*/
